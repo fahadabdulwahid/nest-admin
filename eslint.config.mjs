@@ -1,5 +1,6 @@
 import antfu from '@antfu/eslint-config'
 
+
 export default antfu({
   stylistic: {
     indent: 2,
@@ -19,4 +20,4 @@ export default antfu({
     'regexp/no-contradiction-with-assertion': 'off',
     'ts/no-unused-expressions': 'off',
   },
-})
+});
